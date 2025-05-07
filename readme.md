@@ -24,14 +24,14 @@ A user-friendly web interface for Stable Diffusion/Flux.ai using Streamlit. This
 ### Prerequisites
 
 - Python 3.8 or higher
-- A running instance of [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/Text-to-image-API-Frontend) with API access enabled
+- A running instance of [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with API access enabled
 
 ### Option 1: Direct Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Shivp1413/stable-diffusion-frontend.git
-cd stable-diffusion-frontend
+git clone https://github.com/Shivp1413/Text-to-image-API-Frontend.git
+cd Text-to-image-API-Frontend
 ```
 
 2. Install the required dependencies:
@@ -48,8 +48,8 @@ streamlit run app.py
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Shivp1413/stable-diffusion-frontend.git
-cd stable-diffusion-frontend
+git clone https://github.com/Shivp1413/Text-to-image-API-Frontend.git
+cd Text-to-image-API-Frontend
 ```
 
 2. Build and run using Docker Compose:
@@ -82,7 +82,7 @@ python launch.py --api --listen
 ## Project Structure
 
 ```
-stable-diffusion-frontend/
+Text-to-image-API-Frontend/
 ├── app.py                 # Main application file
 ├── modules/               # Modular components
 │   ├── __init__.py        # Package initialization
@@ -108,6 +108,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-- [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/Text-to-image-API-Frontend)
+- [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - [Streamlit](https://streamlit.io/) for the web framework
 - [Stable Diffusion](https://stability.ai/stable-diffusion) by Stability AI
