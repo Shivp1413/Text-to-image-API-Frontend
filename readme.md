@@ -24,7 +24,7 @@ A user-friendly web interface for Stable Diffusion/Flux.ai using Streamlit. This
 ### Prerequisites
 
 - Python 3.8 or higher
-- A running instance of [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with API access enabled
+- A running instance of [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/Text-to-image-API-Frontend) with API access enabled
 
 ### Option 1: Direct Installation
 
@@ -108,6 +108,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-- [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [AUTOMATIC1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/Text-to-image-API-Frontend)
 - [Streamlit](https://streamlit.io/) for the web framework
 - [Stable Diffusion](https://stability.ai/stable-diffusion) by Stability AI
