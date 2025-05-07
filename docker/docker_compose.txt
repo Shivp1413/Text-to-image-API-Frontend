@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  stable-diffusion-frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../:/app
+    restart: unless-stopped
+    # Uncomment if you need to access a locally hosted Automatic1111 server
+    # network_mode: "host"
+    environment:
+      - SD_SERVER_URL=http://10.103.0.106:7860  # Change this to your Automatic1111 server

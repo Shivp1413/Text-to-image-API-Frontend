@@ -1,0 +1,44 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background shape -->
+  <rect x="20" y="20" width="460" height="260" rx="30" ry="30" fill="url(#bgGradient)" />
+  
+  <!-- Text input representation -->
+  <rect x="70" y="70" width="150" height="110" rx="10" ry="10" fill="#ffffff" opacity="0.9" />
+  <text x="145" y="100" font-family="monospace" font-size="14" text-anchor="middle" fill="#333333">{"prompt": </text>
+  <text x="145" y="125" font-family="monospace" font-size="14" text-anchor="middle" fill="#333333">"mountain lake</text>
+  <text x="145" y="150" font-family="monospace" font-size="14" text-anchor="middle" fill="#333333">with sunset"}</text>
+  
+  <!-- Arrow -->
+  <path d="M230,125 L270,125 M260,115 L270,125 L260,135" stroke="#ffffff" stroke-width="5" fill="none" />
+  
+  <!-- Image output representation -->
+  <rect x="280" y="70" width="150" height="110" rx="10" ry="10" fill="#ffffff" opacity="0.9" />
+  
+  <!-- Light blue sky background -->
+  <rect x="280" y="70" width="150" height="60" rx="10" ry="10" fill="#7dd3fc" />
+  
+  <!-- Yellow sun -->
+  <circle cx="310" cy="95" r="15" fill="#facc15" /> 
+  
+  <!-- Green mountains -->
+  <path d="M280,140 L300,120 L320,130 L340,100 L360,120 L380,110 L410,140 L430,130 L430,180 L280,180 Z" fill="#16a34a" /> 
+  
+  <!-- Blue lake surface -->
+  <path d="M280,180 L430,180 L430,150 L280,150 Z" fill="#0ea5e9" opacity="0.7" /> 
+  
+  <!-- Fix the top corners of the image frame -->
+  <path d="M280,70 Q280,70 290,70 L420,70 Q430,70 430,80 L430,80 L280,80 Z" fill="#7dd3fc" />
+  
+  <!-- API Frontend text -->
+  <text x="250" y="230" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    API Frontend
+  </text>
+</svg>
