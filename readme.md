@@ -1,6 +1,6 @@
 # Text-to-image (Stable Diffusion/Flux.ai) API Frontend
 
-A user-friendly web interface for Stable Diffusion using Streamlit. This application serves as a frontend for the AUTOMATIC1111 Stable Diffusion API.
+A user-friendly web interface for Stable Diffusion/Flux.ai using Streamlit. This application serves as a frontend for the AUTOMATIC1111 Stable Diffusion API.
 
 ![API Frontend Logo](assets/logo.svg)
 ![App Screenshot](screenshots/app_screenshot.png)
